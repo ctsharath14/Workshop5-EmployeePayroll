@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="icon" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../css/Home.css">
+    <script type="text/javascript" src="../js/Utility.js"></script>
+    <script type="text/javascript" src="../js/site_properties.js"></script>
+    <script type="text/javascript" src="../js/EmployeeTable.js"></script>
+</head>
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../assets/images/logo.png" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content sub-main-content">
+            <div class="emp-detail-text">
+                Employee Details <div class="emp-count">0</div>
+            </div>
+            <div onclick="location.href='./Payroll.html'" class="add-button">
+                <div class="plus-icon">
+                    <img src="../assets/icons/add-24px.svg" alt="add user logo">
+                </div>
+                <div>Add User</div>
+            </div>
+        </div>
+        <div class="table-main">
+        <table class="table" id="display">
+        </table>
+        </div>    
+    </div>
+</body>
+</html>
